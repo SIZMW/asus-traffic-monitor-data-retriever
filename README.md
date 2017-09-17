@@ -10,7 +10,7 @@ Many routers with DD-WRT firmware offer the capability to see bandwidth usage, b
 
 #### References
 
-* [cocaman/asus-traffic-fetcher](https://github.com/cocaman/asus-traffic-fetcher) was the initial inspiration to write this program, but with the ability to export to Excel workbooks.
+* [cocaman/asus-traffic-fetcher](https://github.com/cocaman/asus-traffic-fetcher) was the initial inspiration to write this program, but with the added ability to export to Excel workbooks.
 
 ## Build
 This program requires:
@@ -43,16 +43,16 @@ You can run `python retrieve_traffic_data.py -h` for further help.
 #### Output
 An example of the daily usage output in the Excel workbook is shown below:
 
-|     Date     | Download | Upload |  Total  |
-|--------------|----------|--------|---------|
-|  2015-07-31  |   1.60   |  0.79  |  2.390  |
-|  2015-08-01  |   2.90   |  0.40  |   3.3   |
-|  2015-08-02  |   0.40   |  0.35  |  0.750  |
-|  2015-08-03  |   1.25   |  0.97  |  2.170  |
+|     Date     | Download (GB) | Upload (GB) |  Total (GB)  |
+|--------------|---------------|-------------|--------------|
+|  2015-07-31  |      1.60     |     0.7     |     2.39     |
+|  2015-08-01  |      2.90     |     0.4     |     3.30     |
+|  2015-08-02  |      0.40     |     0.3     |     0.70     |
+|  2015-08-03  |      1.25     |     0.9     |     2.10     |
 
 An example of the monthly summary output in the Excel workbook is shown below:
 
-| Year | Month | Download | Upload |  Total  |
-|------|-------|----------|--------|---------|
-| 2015 |   7   |   1.60   |  0.79  |  2.390  |
-| 2015 |   8   |   4.55   |  1.72  |  6.270  |
+| Year | Month | Download (GB) | Upload (GB) |  Total (GB)  |
+|------|-------|---------------|-------------|--------------|
+| 2015 |   7   |      1.60     |     0.7     |     2.30     |
+| 2015 |   8   |      4.55     |     1.7     |     6.25     |
