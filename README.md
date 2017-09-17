@@ -10,7 +10,7 @@ Many routers with DD-WRT firmware offer the capability to see bandwidth usage, b
 
 #### References
 
-* [cocaman/asus-traffic-fetcher](https://github.com/cocaman/asus-traffic-fetcher) was the initial inspiration to write this program, but with the added ability to export to Excel workbooks.
+* [dbrgn/asus-traffic-fetcher](https://github.com/dbrgn/asus-traffic-fetcher) was the initial inspiration to write this program, but with the added ability to export to Excel workbooks.
 
 ## Build
 This program requires:
