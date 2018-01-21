@@ -94,7 +94,6 @@ def retrieve_router_data(username, password):
     driver = webdriver.Chrome(CHROME_DRIVER_FILE, desired_capabilities=capabilities)
     wait = WebDriverWait(driver, 120)
     driver.implicitly_wait(2)
-    driver.set_window_size(960, 720)
     
     # Log in the router
     driver.get(ROUTER_URL + LOGIN_PAGE)
